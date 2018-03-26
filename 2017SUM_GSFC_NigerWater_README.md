@@ -4,7 +4,7 @@
 
 Date Created: July, 27, 2017
 
-This Google Earth Engine (GEE) tool is an exploratory tool that allows the user to view spatial information related to precipitation and resiliency. Most of the data sets are global or near global, but they are clipped to the country of Niger for Mercy Corps’ efforts there.
+This Google Earth Engine (GEE) tool is an exploratory tool that allows the user to view spatial information related to precipitation and resiliency. Most of the data sets are global or near global, but they are clipped to the country of Niger for Mercy Corpsâ€™ efforts there.
 
  Required Packages
 ===================
@@ -30,23 +30,23 @@ Human Population: WorldPop. Dynamic in GEE
 
 Age Demographics: WorldPop. Divided into appropriate demographics for Niger. Saved as assets
 
-Oxford – Malaria % under 5 infected: Oxford MAP Plasmodium Falciparum Malaria in Africa. Dynamic in GEE
+Oxford â€“ Malaria % under 5 infected: Oxford MAP Plasmodium Falciparum Malaria in Africa. Dynamic in GEE
 
 Major Health Sites: NASA SEDAC. Saved as asset
 
-GRACE – Groundwater Change: This is a SAMPLE LAYER of model data, provided by Bailing Li at NASA GSFC. Saved as asset
+GRACE â€“ Groundwater Change: This is a SAMPLE LAYER of model data, provided by Bailing Li at NASA GSFC. Saved as asset
 
-MODIS – Land Surface Temperature: Dynamic in GEE
+MODIS â€“ Land Surface Temperature: Dynamic in GEE
 
-GPM – Rainfall: Dynamic in GEE
+GPM â€“ Rainfall: Dynamic in GEE
 
-TRMM – Rainfall: Dynamic in GEE
+TRMM â€“ Rainfall: Dynamic in GEE
 
-CHIRPS – Rainfall: Dynamic in GEE
+CHIRPS â€“ Rainfall: Dynamic in GEE
 
-MODIS NDVI – Vegetation Greenness: Dynamic in GEE
+MODIS NDVI â€“ Vegetation Greenness: Dynamic in GEE
 
-MODIS NDDI – Drought Index: Calculated from NDVI and NDWI in GEE. Dynamic in GEE
+MODIS NDDI â€“ Drought Index: Calculated from NDVI and NDWI in GEE. Dynamic in GEE
 
 Contact
 ---------
