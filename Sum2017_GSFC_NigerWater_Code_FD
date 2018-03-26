@@ -47,14 +47,14 @@ panel_intro.add(ui.Button({label: 'Close', style: {color: 'black'},
 }));
 
 // Add the title text
-var title = ui.Panel([ui.Label({value: 'Welcome to the NASA DEVELOP Niger Water Resources teamís Rainfall Analysis '+
+var title = ui.Panel([ui.Label({value: 'Welcome to the NASA DEVELOP Niger Water Resources team‚Äôs Rainfall Analysis '+
   'Integration (RAIn) tool', style: {fontSize: '25px', fontWeight: 'bold', textAlign: 'center',color:'black'}})]);
 panel_intro.add(title);
 
 var intro = ui.Panel([ui.Label({value: 'Before starting to explore the tool here are some tips and tricks for using '+
-  'the tool. On the bottom left hand side of the screen there is a button labeled ìEXPLOREî. Press this button to be '+
+  'the tool. On the bottom left hand side of the screen there is a button labeled ‚ÄúEXPLORE‚Äù. Press this button to be '+
   'able to select different layers to visualize. In addition, you will be able to select the date of the imagery you '+
-  'would like to display. On the bottom right hand side of the screen, there is a button labeled ìLEGENDSî. In this '+
+  'would like to display. On the bottom right hand side of the screen, there is a button labeled ‚ÄúLEGENDS‚Äù. In this '+
   'panel there will be legends for all the data layers. In order to close either panel (LEGENDS or EXPLORE), press '+ 
   'anywhere on the map. ',
     style: {color: 'black',fontWeight: 'normal',}})]);
@@ -134,11 +134,11 @@ var ndvi_data = ui.Panel([ui.Label({value: '- Vegetation Greenness (NDVI), NASA 
     style: {color: 'black', fontWeight:'normal'}})]);
 panel_intro.add(ndvi_data);
 
-var end = ui.Panel([ui.Label({value: 'Press on the ìCloseî button to start exploring the tool. Enjoy!',
+var end = ui.Panel([ui.Label({value: 'Press on the ‚ÄúClose‚Äù button to start exploring the tool. Enjoy!',
     style: {color: 'black', fontWeight: 'bold'}})]);
 panel_intro.add(end);
 
-var extra = ui.Panel([ui.Label({value: 'This material†is based upon work supported by NASA through '+ 
+var extra = ui.Panel([ui.Label({value: 'This material¬†is based upon work supported by NASA through '+ 
     'contract NNL16AA05C and cooperative agreement NNX14AB60A. Any mention of a commercial product,'+
     'service, or activity in this material does not constitute NASA endorsement. Any opinions, findings,'+ 
     'and conclusions or recommendations expressed in this material are those of the author(s) and '+ 
@@ -878,7 +878,7 @@ function convertToCelsius(image){
   chart2.setOptions({
     title: 'Land Surface Temperature Over Time',
     colors: ['#8e2108'],
-    vAxis: {title: 'Temperature (∞C)'},
+    vAxis: {title: 'Temperature (¬∞C)'},
     hAxis: {title: 'Date', format: 'MM-yy', gridlines: {count: 7}},
   });
   //SidePanel.widgets().set(3, chart2);
